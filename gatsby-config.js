@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Patrick Jose',
     // Main Site Title
-    title: `Patrick Jose`,
+    title: `Patrick Jose Portfolio`,
     // Description that goes under your name in main bio
     description: `Software Engineer | Real-time Systems | Full-stack developer`,
     // Optional: Twitter account handle
@@ -15,47 +15,60 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/patrick-jose/`,
     // Content of the About Me section
-    about: `As a professional software engineer with over 5 years of experience, I have a strong foundation in developing real-time software systems. \
+    about: `As a professional software engineer with nearly 6 years of experience, I have a strong foundation in developing real-time software systems. \
             My expertise spans a range of programming languages and tools, including C++, Python, Java, and JavaScript, as well as cloud platforms like \
             Google Cloud and AWS. I also have experience in other areas, including developing AI models, designing and implementing distributed systems, \
-            and creating web applications.`,
+            and creating web and mobile applications.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'ParkSpace',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A full-stack web application that connects people who want to rent their parking spots with those seeking parking for events',
+        link: '',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'TMDB Films',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A full-stack web and mobile application allowing users to query info about films and TV shows',
+        link: '',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Housing Prices AI',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Collaborated with 2 engineers to implement a Python Machine Learning model blending Lasso, Elastic Net, and Gradient Boost, predicting housing sale prices from a dataset of 1,400+ entries along 80+ features',
+        link: '',
+      },
+      {
+        name: 'AI Rap Generator',
+        description:
+          'Developed 2 Natural Language Processing AI models with Tensorflow in Python to generate rap lyrics in the style of Kendrick Lamar, collecting and preprocessing 260+ songs, generating new content with a field-test accuracy of 60% ',
+        link: 'https://github.com/pajose/Kendrick-Lamar-AI',
+      },
+      {
+        name: 'Multiplayer Online Snake Game',
+        description:
+          'A real-time online multiplayer snake game using C++, JavaScript, and HTML',
+        link: 'https://github.com/pajose/Multiplayer-Online-Snake-Game',
+      },
+      {
+        name: 'HealthCarenect',
+        description:
+          'An Android application that physicians and patients can use as an online forum page to gain medical advice and support',
+        link: 'https://github.com/pajose/HealthCarenect',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'The Boeing Company',
+        description: 'Senior Software Engineer, July 2021 - Present',
+        link: '',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'The Boeing Company',
+        description: 'Software Engineer, January 2019 - July 2021',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -63,7 +76,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, C/C++, C#, Java, JavaScript/Typescript, Angular, React, Flask, Vue.js, Express.js',
       },
       {
         name: 'Databases',
@@ -72,7 +85,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Kubernetes, Amazon Web Services (AWS), Google Cloud Platform, Hadoop, Kafka, Apache Solr, Node.js, AI/ML (TensorFlow, Keras, scikit-learn, NLP, RNN, CNN, Transformers), Gitlab CI/CD, Unreal Engine, Linux',
       },
     ],
   },
