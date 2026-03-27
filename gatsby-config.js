@@ -68,7 +68,7 @@ I've built and optimized simulation systems to model complex, time-sensitive beh
       },
       {
         name: 'The Boeing Company',
-        description: 'Senior SimulationSoftware Engineer, July 2021 - April 2025',
+        description: 'Senior Simulation Software Engineer, July 2021 - April 2025',
         link: '',
       },
       {
