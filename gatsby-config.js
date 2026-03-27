@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Patrick Jose Portfolio`,
     // Description that goes under your name in main bio
-    description: `Software Engineer | Real-time Systems | Full-stack developer`,
+    description: `Software Engineer | Real-time Systems`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -15,10 +15,11 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/patrick-jose/`,
     // Content of the About Me section
-    about: `As a professional software engineer with nearly 6 years of experience, I have a strong foundation in developing real-time software systems. \
-            My expertise spans a range of programming languages and tools, including C++, Python, Java, and JavaScript, as well as cloud platforms like \
-            Google Cloud and AWS. I also have experience in other areas, including developing AI models, designing and implementing distributed systems, \
-            and creating web and mobile applications.`,
+    about: `As a software engineer with over 7 years of experience, I specialize in building high-performance, real-time systems with a strong emphasis on reliability and efficiency. \
+I have a deep foundation in C/C++ and Python, along with experience in Java and JavaScript, and have worked extensively with cloud platforms such as Google Cloud and AWS.
+            
+My background spans low-level systems programming, including operating systems, networking, and real-time simulations, as well as higher-level application development. \
+I've built and optimized simulation systems to model complex, time-sensitive behaviors, alongside designing distributed systems, developing AI-driven solutions, and creating scalable web and mobile applications.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -61,13 +62,18 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'The Boeing Company',
-        description: 'Senior Software Engineer, July 2021 - Present',
+        name: 'Cisco',
+        description: 'Senior Software Engineer, April 2025 - Present',
         link: '',
       },
       {
         name: 'The Boeing Company',
-        description: 'Software Engineer, January 2019 - July 2021',
+        description: 'Senior SimulationSoftware Engineer, July 2021 - April 2025',
+        link: '',
+      },
+      {
+        name: 'The Boeing Company',
+        description: 'Test & Evaluation Software Engineer, January 2019 - July 2021',
         link: '',
       },
     ],
